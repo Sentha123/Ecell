@@ -1294,17 +1294,24 @@ section {
 #team .member .member-info-content {
   margin-top: -50px;
   transition: margin 0.2s;
+  
 }
 
 #team .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.5s;
+  transform: translateX(30px);
 }
 
 #team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
+  height: 100px;
+  width: 100px;
 }
 
 #team .member h4 {
